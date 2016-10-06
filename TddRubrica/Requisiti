@@ -1,0 +1,22 @@
+RUBRICA
+
+R1 - La classe Voce è costituita da tre attributi nome, cognome e telefono. 
+Tutti String. E' presente costruttore vuoto e costruttore con i 3 argomenti. 
+Presenti Getters e Setters.
+
+R2 - Programma gestito da classe Rubrica avente attributo nome e deve mantenere 
+un tipo di collezione per mantenere le Voci.
+
+R3 - Rubrica ha un primo metodo aggiungiVoce(String nome, String cognome, String telefono)
+che controlla la presenza della voce nella collezione. Se presente lancia VoceGiaEsiste
+altrimente deve creare la Voce e aggiungerla alla collezione.
+
+R4 - Il secondo metodo getVoce(String nome, String cognome) controlla l'esistenza in 
+collezione della Voce. Se esiste la restituisce se no lancia VoceNonEsiste.
+
+R5 - Il terzo getTutteVoci() restituisce una lista con tutti i contatti presenti nella lista.
+Se vuota restituisce una lista vuota.
+
+R6 - Il quarto aggiornaVoce(String nome, String cognome, String telefono) controlla 
+l'esistenza del contatto e aggiorna gli attributi dell'oggetto. Se non esiste lancia
+VoceNonEsiste.
